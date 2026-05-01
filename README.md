@@ -137,6 +137,4 @@ It highlights the importance of strong passwords and provides practical tools to
 
 If you're interested in cybersecurity and web security, feel free to connect and collaborate.
 
----
 
-#CyberSecurity #WebSecurity #JavaScript #PasswordSecurity #BugBounty
