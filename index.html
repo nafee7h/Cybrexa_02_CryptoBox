@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CryptoBox</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <!-- Corner decorations -->
+  <div class="corner tl"></div>
+  <div class="corner tr"></div>
+  <div class="corner bl"></div>
+  <div class="corner br"></div>
+
+  <h1 data-text="🔐 CryptoBox">🔐 CryptoBox</h1>
+  <p>Password Strength Checker</p>
+
+  <!-- Password Input -->
+  <input type="password" id="password" placeholder="Enter password">
+
+  <!-- Strength Meter -->
+  <div class="meter">
+    <div id="strength-bar"></div>
+  </div>
+  <p id="strength-text">Strength: Weak</p>
+  <p id="crack-time"></p>
+  <p id="breach-warning"></p>
+
+  <!-- Generator -->
+  <h2>Generate Password</h2>
+  <input type="range" id="length" min="8" max="32" value="12">
+  <span id="length-value">12</span>
+
+  <button onclick="generatePassword()">Generate</button>
+  <input type="text" id="generated-password" readonly placeholder="Generated password">
+  <button onclick="copyPassword()">Copy</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
