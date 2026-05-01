@@ -82,15 +82,16 @@ This project is built with a focus on understanding **how attackers evaluate wea
 
 ---
 
-## 📸 Demo
+## 📸 Screenshots
 
-(Add screenshots here after deployment)
+[![CryptoBox UI](assets/live.png)](assets/live.png)
 
 ---
 
 ## 🌐 Live Demo
 
-(Add Netlify link here)
+
+🔗 Open Project: [CryptoBox Live](https://nafee7h.github.io/Cybrexa_02_CryptoBox/)
 
 ---
 
